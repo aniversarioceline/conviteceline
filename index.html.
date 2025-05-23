@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Convite de Aniversário da Celine</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+      text-align: center;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      font-size: 2em;
+      color: #ff69b4;
+    }
+    p {
+      font-size: 1.2em;
+    }
+    .button {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 25px;
+      font-size: 1em;
+      color: white;
+      background-color: #ff69b4;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background-color: #ff85c1;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/5sYZ1RR0Bc8" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <h1>Um aninho de muita fofura!</h1>
+  
+  <p>Nossa pequena <strong>Celine</strong> está completando seu primeiro aninho e queremos comemorar esse momento tão especial com você!</p>
+  
+  <p>Venha se divertir com a gente no mundo encantado do <strong>Baby Looney Tunes</strong>!</p>
+  
+  <p><strong>Data:</strong> 29/01/2026<br>
+  <strong>Horário:</strong> (em breve)<br>
+  <strong>Local:</strong> Rua Aloes, 251 - Bloco 06, ap 504</p>
+  
+  <div>
+    <a href="https://api.whatsapp.com/send?phone=SEUNUMERO&text=Confirmo%20presença%20no%20aniversário%20da%20Celine!" class="button">Confirmar Presença</a>
+    <a href="https://www.google.com/maps/search/?api=1&query=Rua+Aloes+251" class="button" target="_blank">Como Chegar</a>
+    <a href="https://www.querodoo.com.br" class="button" target="_blank">Lista de Presentes</a>
+  </div>
+
+</body>
+</html>
